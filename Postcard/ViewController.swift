@@ -30,6 +30,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func postMailButtonPressed(sender: UIButton) {
+        // Adding a comment here Yo!
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
         messageLabel.textColor = UIColor.redColor()
